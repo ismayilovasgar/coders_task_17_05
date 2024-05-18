@@ -15,7 +15,7 @@ main_path = os.path.dirname(__file__)
 os.makedirs(main_path + "/Example/Subdirectory")
 
 with open(main_path + "/text_file.txt", encoding="utf-8", mode="+x") as text_file:
-    text_file.write("text file ")
+    text_file.write("text file deneme")
 
 with pathlib.Path(main_path) as my_file:
     for i in my_file.iterdir():
